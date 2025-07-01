@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span style="color:yellow">HIPPOCRATES </span><span style="color:red">MEDICAL</span><span style="color:green">TOOLS</span></h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="beranda.html">Beranda</a>
+  <a href="produk.html">Produk</a>
+  <a href="artikel.html">Artikel</a>
+</div>
+
+
+<div class="row">
+  <div>
+    <div class="card">
+      <h2>UV STERILISATOR</h2>
+      <img src="images/uvsterilisator.png" style="height:200px"></img>
+      <p>Rumah sakit tentu tidak hanya melayani 1 atau 2 pasien saja. Setiap harinya, pasti ada pasien yang keluar masuk rumah sakit dengan keluhan penyakit dan masalah kesehatan yang berbeda-beda. Hal tersebut tentu membuat ruang pasien di rumah sakit perlu dijaga agar tetap steril dan terbebas dari risiko virus atau bakteri berbahaya.<br><br>
+
+Nah, untuk membantu proses sterilisasi ruangan di rumah sakit tersebut, khususnya di ruang ICU, ruang NICU, dan kamar operasi, UV sterilisator ini sering digunakan. Cara kerja dari alat ini terbilang simpel, yakni memanfaatkan sinar ultraviolet atau sinar UV. Namun, karena sinar tersebut dikenal membahayakan bagi manusia, pengoperasian UV sterilisator perlu dilakukan dari jarak jauh alias menggunakan remote control. </p>
+    </div>
+    <div class="card">
+      <h2>LAMPU PERIKSA</h2>
+      <img src="images/lampuperiksa.png" style="height:200px"></img>
+      <p>Selanjutnya, alat medis yang wajib ada dan sering digunakan di rumah sakit adalah lampu periksa. Di dunia medis, terdapat cukup banyak jenis lampu yang umum digunakan. Terkait lampu periksa, alat medis tersebut didesain khusus agar mampu digunakan dengan lebih mudah untuk berbagai kebutuhan.<br><br>
+
+Sebagai contoh, fungsi dari lampu periksa ini adalah untuk membantu dokter mendapatkan penerangan yang cukup saat memeriksa kondisi fisik pasien. Biasanya, cahaya yang dipasang pada lampu periksa ini berjenis LED serta tak menimbulkan panas. Oleh karena itu, pasien tidak merasa terganggu saat menjalani proses pemeriksaan medis menggunakan alat tersebut. </p>
+    </div>
+    <div class="card">
+      <h2>HEMATOLOGY ANALYZER</h2>
+      <img src="images/hematologyanalyzer.png" style="height:200px"></img>
+      <p>Alat kesehatan rumah sakit lainnya yang sering digunakan saat pemeriksaan medis oleh dokter adalah hematology analyzer. Alat ini begitu penting sehingga wajib tersedia tidak hanya di rumah sakit, tapi juga klinik. Fungsi dari hematology analyzer adalah untuk menganalisis sel darah yang ada di dalam tubuh manusia.<br><br>
+
+Dengan alat ini pula dokter bisa mengetahui jumlah serta kondisi sel darah pada pasiennya. Melalui informasi yang diberikan oleh alat diagnostik tersebut, dokter jadi lebih mudah memahami dan menarik kesimpulan terhadap jenis penyakit apa yang diderita pasiennya. </p>
+    </div>
+    <div class="card">
+      <h2>PASIEN MONITOR</h2>
+      <img src="images/pasienmonitor.png" style="height:200px"></img>
+      <p>Kebanyakan dari kamu tentu tidak asing dengan alat yang satu ini, bukan? Ya, pasien monitor merupakan alat rumah sakit yang umum diletakkan di sebelah tempat tidur pasien, khususnya di ruang perawatan atau ruang ICU. Fungsi dari alat ini adalah untuk memantau kondisi pasien secara intensif yang sedang berada di dalam kondisi labil atau tak menentu.<br><br>
+Tampilan pada monitor ini pun diberikan secara real-time atau tanpa jeda. Parameter yang dapat diamati pada alat rumah sakit ini meliputi suhu tubuh, kadar oksigen di dalam darah, sampai irama jantung. Dengan begitu, jika diketahui ada parameter yang tidak normal atau dalam keadaan gawat, dokter atau tenaga medis lainnya bisa melakukan penanganan yang diperlukan dengan segera.</p>
+    </div>
+    <div class="card">
+      <h2>MESIN ANESTESI</h2>
+      <img src="images/mesinanestesi.png" style="height:200px"></img>
+      <p>Berbeda dengan pasien monitor, masyarakat awam mungkin kebanyakan masih belum mengenal alat kesehatan rumah sakit yang satu ini. Namun, jika sudah cukup lama berkecimpung di dunia medis, kamu pasti sudah tak asing dengan alat medis bernama mesin anestesi. <BR><BR>
+
+Sesuai namanya, mesin tersebut berguna untuk memberikan obat medis berupa anestesi yang mampu menghilangkan kesadaran pasien saat akan melakukan prosedur medis tertentu. Sebagai contoh, operasi pembedahan atau sebagainya.<BR><BR>
+
+Mesin anestesi sendiri adalah gabungan dari berbagai macam alat medis lainnya yang amat penting dan bermanfaat dalam proses pembiusan terhadap pasien. Oleh karena itu, alat ini tergolong wajib dimiliki oleh rumah sakit dan cukup sering digunakan untuk menangani kondisi medis pasien. </p>
+    </div>
+    <div class="card">
+      <h2>USG</h2>
+      <img src="images/usg.png" style="height:200px"></img>
+      <p>Ultrasonografi, biasa disingkat dengan USG, adalah alat kesehatan canggih yang mampu mencitrakan organ dari tubuh manusia. Karena fungsinya tersebut, alat ini tergolong sering digunakan di rumah sakit guna memeriksa kondisi tubuh pasien dan mencari tahu penyakit apa yang mungkin menjangkitinya.<br><br>
+
+Umumnya, mesin ini digunakan untuk mengetahui kondisi dari organ vital manusia. Seperti, ginjal, usus, lambung, liver, dan lain sebagainya.<br><br>
+
+Selain itu, mesin USG juga sering kali digunakan untuk memeriksa kondisi janin pada rahim dari ibu hamil. Seperti, posisi, ukuran, jenis kelamin, dan lainnya.<br><br>
+
+Cara kerja dari mesin ini adalah dengan memanfaatkan gelombang ultrasound atau suara ultra untuk mengetahui posisi atau ruang di dalam tubuh. </p>
+    </div>
+    <div class="card">
+      <h2>INKUBATOR BAYI</h2>
+      <img src="images/inkubatorbayi.png" style="height:200px"></img>
+      <p>Inkubator bayi adalah alat medis lainnya yang wajib disediakan oleh pihak rumah sakit, terutama yang mengkhususkan layanannya pada proses persalinan pada ibu hamil. Inkubasi memiliki arti secara harafiah sebagai pengeraman. <br><br>
+
+Normalnya, sebelum dilahirkan, bayi akan berada di dalam rahim ibunya selama kurang lebih 9 bulan untuk menjalani proses inkubasi. Akan tetapi, dalam kasus tertentu, ada kalanya bayi lahir prematur, walaupun jangka waktunya tidak terlalu jauh dari seharusnya. Nah, dalam kondisi tersebut, bayi akan diletakkan pada inkubator agar dapat hidup dengan sehat dan terhindar dari berbagai risiko masalah kesehatan berbahaya, hingga kematian. </p>
+    </div>
+    <div class="card">
+      <h2>ALAT INFUS</h2>
+      <img src="images/alatinfus.png" style="height:200px"></img>
+      <p>Dalam kondisi sakit, pasien tentu tidak akan bisa mendapatkan asupan nutrisi dari makanan maupun minuman sebagaimana mestinya. Sebagai gantinya, dokter akan memberikan alat infus guna memenuhi kebutuhan gizi dan nutrisi yang dibutuhkan oleh pasien. Caranya dengan menyalurkannya via pembuluh darah melalui alat infus tersebut.<br><br>
+
+Karena alat infus tergolong sebagai alat yang habis pakai langsung dibuang, atau hanya sekali penggunaan saja, pihak rumah sakit tentu perlu menyediakan stok dengan jumlah cukup banyak. Dengan begitu, saat ada pasien yang membutuhkannya, dokter bisa langsung menyediakan alat infus tersebut. </p>
+    </div>
+    <div class="card">
+      <h2>KURSI RODA</h2>
+      <img src="images/kursiroda.png" style="height:200px"></img>
+      <p>Tidak hanya tongkat bantu jalan atau kruk, kursi roda juga menjadi salah satu alat yang wajib tersedia di rumah sakit. Sesuai namanya, kursi roda berguna untuk membantu mobilitas dari pasien yang kesulitan untuk berjalan atau berdiri, tapi masih harus menjalani pengobatan dan perawatan di rumah sakit. <br><br>
+
+Contoh pengguna kursi roda adalah pasien yang mengalami patah tulang pada kaki maupun kondisi cacat bawaan lainnya. Dengan begitu, saat diharuskan melakukan penanganan medis di ruang atau bagian rumah sakit lainnya, pasien bisa berpindah dengan lebih mudah dan tenaga medis tidak kerepotan untuk memindahkan pasien tersebut. </p>
+    </div>
+    <div class="card">
+      <h2>ALAT TES GULA DARAH</h2>
+      <img src="images/alattesguladarah.png" style="height:200px"></img>
+      <p>Sebagai salah satu penyakit yang cukup banyak diderita, rumah sakit juga perlu memiliki alat tes gula darah guna menangani pasien diabetes. Alat kesehatan tersebut memiliki bentuk seperti mesin kecil yang dilengkapi oleh baterai dan jarum kecil yang steril. Alat tersebut berguna untuk mengambil sampel darah dari pasien diabetes, serta strip yang berguna sebagai tempat penampung sampel darah. <br><br>
+
+Menggunakan alat tersebut, dokter bisa mengetahui kadar gula darah pasien dengan lebih mudah dan memantau kondisinya. Dengan begitu, keadaan kesehatan penderita penyakit diabetes bisa dikendalikan dan menekan risiko terjadinya lonjakan atau penurunan secara drastis yang membahayakan. </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+

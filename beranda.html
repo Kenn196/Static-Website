@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span style="color:yellow">HIPPOCRATES </span><span style="color:red">MEDICAL</span><span style="color:green">TOOLS</span></h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="beranda.html">Beranda</a>
+  <a href="produk.html">Produk</a>
+  <a href="artikel.html">Artikel</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TENTANG WEBSITE</h2>
+      <h5>Mengenal Hippocrates MedicalTools</h5>
+      <img src="images/hospital.jpg" style="height:280px">
+      <p>Halo semuanya...</p>
+      <p>Selamat datang di Website kami. Semoga kalian semua selalu dalam kondisi yang sehat dan senantiasa dalam lindungan Tuhan Yang Maha Kuasa. Sesuai dengan tajuknya, "Hippocrates MedicalTools", Website ini diperuntukkan sebagai sebuah media digital yang dapat membantu masyarakat, termasuk para penggelut dunia medis, dalam menjelajahi dan mempelajari ragam peralatan medis. Melalui hadirnya website ini, diharapkan agar kalian semua dimungkinkan untuk menambah wawasan masing-masing terkait serba-serbi peralatan medis.</p>
+    </div>
+    <div class="card">
+      <h2>PRODUK TERPOPULER</h2>
+      <h5>Inilah perlengkapan medis terpopuler bulan ini</h5>
+      <img src="https://www.yankodesign.com/images/design_news/2011/06/08/baby_nest2.jpg" style="height:230px;margin:15px"><video controls autoplay loop muted src="images/videoinkubator.mp4" style="height:230px;margin:15px"></video><br><br><audio src="images/audioinkubator.mp3" style="width:100%" controls></audio>
+      <p>INKUBATOR BAYI</p>
+      <p>Inkubator bayi adalah alat medis lainnya yang wajib disediakan oleh pihak rumah sakit, terutama yang mengkhususkan layanannya pada proses persalinan pada ibu hamil. Inkubasi memiliki arti secara harafiah sebagai pengeraman.<br><br>
+
+Normalnya, sebelum dilahirkan, bayi akan berada di dalam rahim ibunya selama kurang lebih 9 bulan untuk menjalani proses inkubasi. Akan tetapi, dalam kasus tertentu, ada kalanya bayi lahir prematur, walaupun jangka waktunya tidak terlalu jauh dari seharusnya. Nah, dalam kondisi tersebut, bayi akan diletakkan pada inkubator agar dapat hidup dengan sehat dan terhindar dari berbagai risiko masalah kesehatan berbahaya, hingga kematian.<br><br></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Tentang Saya</h2>
+      <img src="images/fotokenneth.jpg" style="height:200px"><br><br>
+      <table>
+      	<tr>
+          <td valign="top"><b>Nama</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">Kenneth Alexander Kurniawan</td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Tempat Lahir</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">Kota Malang, Jawa Timur, Indonesia</td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Tanggal Lahir</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">26 April 2007</td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Usia</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">16 tahun</td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Pendidikan Sekarang</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">SMAK Kolese Santo Yusup Malang</td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Kelas</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">XI-A</td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Nomor Absen</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">20</td>
+        </tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Formulir Pendaftaran untuk Berlangganan Informasi Terbaru dari Hippocrates MedicalTools</h3>
+      <table>
+        <tr>
+          <td valign="top"><b>Nama</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><input type="text" name="n"></td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Tanggal Lahir</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><input type="date" name="tl"></td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Password</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><input type="password" name="pw"></td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Jenis Kelamin</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><input type="radio" name="jk" value="Pria">Pria<input type="radio" name="jk" value="Wanita">Wanita</td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Pekerjaan</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top">
+            <select name="p" style="width:100%">
+              <option value="Dokter">Dokter</option>
+              <option value="Perawat">Perawat</option>
+              <option value="Lain-lain">Lain-lain</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" style="color:red"><b>Email</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><input type="email" name="em"></td>
+        </tr>
+        <tr>
+          <td valign="top"><b>Deskripsi</b></td> 
+          <td valign="top"> <b>:</b> </td> 
+          <td valign="top"><textarea name="d" style="width:100%"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Daftar" style="width:100%"></td>
+          <td colspan="2"><input type="reset" value="Batal" style="width:65%;text-align:center"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Iklan</h3>
+      <img src="images/iklan.jpg" style="height:290px;width:300px">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Copyright &copy; 2023 by Kenneth</h2>
+</div>
+
+</body>
+</html>
+
+
